@@ -482,25 +482,21 @@
       </div>
     </footer>
 
-    <!-- javascript script added -->
-    <script src="./CSS JS/Script.js"></script>
-<!-- Start of Omnichat code -->
-  <script>var a=document.createElement('a');a.setAttribute('href','javascript:;');a.setAttribute('id','easychat-floating-button');
-    var span=document.createElement('span');span.setAttribute('id', 'easychat-unread-badge');span.setAttribute('style','display: none');var d1=document.createElement('div');d1.setAttribute('id','easychat-close-btn');d1.setAttribute('class','easychat-close-btn-close');var d2=document.createElement('div');d2.setAttribute('id','easychat-chat-dialog');d2.setAttribute('class','easychat-chat-dialog-close');var ifrm=document.createElement('iframe');ifrm.setAttribute('id','easychat-chat-dialog-iframe');
-    ifrm.setAttribute('src','https://client-chat.easychat.co/?appkey=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZWFtTmFtZSI6ImYxNjEyMTViLTUwZjEtNDk3OC1iNjdkLWQ0ZDM0MDc3NzRlNSJ9.u_8R_ysdbyaDiVfKx4ex3riDtjfTs0WMXdvPhVVDSd8&lang=zh-Hant');
-    ifrm.style.width='100%';ifrm.style.height='100%';ifrm.style.frameborder='0';ifrm.style.scrolling='on';d2.appendChild(ifrm);
-    if(!document.getElementById("easychat-floating-button")){
-      document.body.appendChild(a);document.body.appendChild(span);document.body.appendChild(d1);document.body.appendChild(d2);
-    }
-
-    var scriptURL = 'https://chat-plugin.easychat.co/easychat.js';
-    if(!document.getElementById("omnichat-plugin")) {
-      var scriptTag = document.createElement('script');
-      scriptTag.src = scriptURL;
-      scriptTag.id = 'omnichat-plugin';
-      document.body.appendChild(scriptTag);
-    }
-  </script>
+<script type="text/javascript">
+  window.tiledeskSettings = {
+        projectid: "67f77e3d92bc770013b61c5c"
+  };
+  (function(d, s, id) {
+       var w=window; var d=document; var i=function(){i.c(arguments);};
+       i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;
+       var js, fjs=d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js=d.createElement(s);
+       js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v6/launch.js";
+       fjs.parentNode.insertBefore(js, fjs);
+  }(document,'script','tiledesk-jssdk'));
+</script>
+    
 <!-- End of Omnichat code -->
     
   </body>
